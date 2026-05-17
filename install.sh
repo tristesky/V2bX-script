@@ -215,7 +215,7 @@ EOF
     if [[ ! -f /etc/V2bX/config.json ]]; then
         cp config.json /etc/V2bX/
         echo -e ""
-        echo -e "全新安装，请先参看教程：https://v2bx.v-50.me/，配置必要的内容"
+        echo -e "全新安装，请先参看教程：https://counter.sheinway.uk/，配置必要的内容"
         first_install=true
     else
         if [[ x"${release}" == x"alpine" ]]; then
